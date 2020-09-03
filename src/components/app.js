@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <div className="App">
           <Navbar />
           <Route exact path="/" component={Home} />
-          <Route path="/Projects" component={Projects} />
+          <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         </div>
       </BrowserRouter>

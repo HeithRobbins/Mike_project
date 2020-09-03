@@ -1,16 +1,108 @@
+html {
+  background: black;
+  background: cover;
+  background-image: no-repeat;
+
+  img {
+    border-radius: 15px;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0;
 }
 
-.logo img {
-  width: 50px;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: cover;
+  margin: 0px;
+  height: cover;
+  color: white;
+  background: #778899;
+  border-radius: 30px;
+
+  img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
-.brand-logo {
-  width: 30px;
-  margin: 4px;
-  height: 4px;
-  color: rgb(139, 139, 137);
-  background: gray;
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.right a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.125em solid #3d555b;
+  box-shadow: inset 0 -0.125em 0 #3d555b;
+  transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1),
+    color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.right a:hover {
+  box-shadow: inset 0 -1.125em 0 #236677;
+  color: #000;
+}
+
+.right a:focus {
+  background: #fff;
+  outline: none;
+  background: #236677;
+  color: #fff;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #778899;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.title {
+  padding-right: 50px;
+  font-size: 50px;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-4px);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }

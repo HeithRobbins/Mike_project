@@ -1,0 +1,19 @@
+.top-section-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  h1 {
+    color: white;
+  }
+}
+
+.blog-pictures {
+  padding-top: 50px;
+  margin: 0;
+
+  img {
+    width: 1500px;
+    height: 550px;
+  }
+}
