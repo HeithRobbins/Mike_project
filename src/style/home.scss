@@ -1,19 +1,73 @@
-.top-section-actions {
+// .home-right-side {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+// }
+
+.why-us {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  font-size: 16px;
-  h1 {
-    color: white;
+
+  .home-right-side {
+    padding: 60px 140px;
+    background-color: #778899;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 145px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    box-shadow: 5px 10px #cea135;
   }
 }
 
-.blog-pictures {
-  padding-top: 50px;
-  margin: 0;
+.left-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
 
-  img {
-    width: 1500px;
-    height: 550px;
+  .left-box {
+    padding: 60px 140px;
+    background-color: #778899;
+    color: #cbcbcb;
+    width: 250px;
+    border-radius: 145px;
+    box-shadow: 5px 10px #cea135;
   }
+}
+
+.above-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.condisions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 0;
+  padding: 20px 100px 40px;
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: auto;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.bottom-container {
+  height: 400px;
+  background-color: #cea135;
+  border-top: 10px solid white;
+  color: #11122b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu Condensed", sans-serif;
 }

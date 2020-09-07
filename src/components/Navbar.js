@@ -18,7 +18,9 @@ const NavBar = () => {
           <img src={Logo} alt="logo" />
         </a>
         <ul className="right">
-          <p className="title">SAVVY Builder LLC</p>
+          <p className="title">
+            <u>SAVVY Builder LLC</u>
+          </p>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
